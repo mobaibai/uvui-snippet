@@ -1,0 +1,39 @@
+{
+  "name": "uvui-snippet",
+  "displayName": "uvui-snippet",
+  "description": "uvui代码提示",
+  "version": "0.1.1",
+  "publisher": "mobaibai",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiashui1994/uview-snippet"
+  },
+  "keywords": [
+    "uniapp",
+    "uvui",
+    "snippet"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue-html",
+        "path": "./snippets/components.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/components-js.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/js.json"
+      }
+    ]
+  }
+}
